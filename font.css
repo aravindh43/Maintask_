@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+*{
+    font-family: 'Inter';
+}
+header{
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+}
+.heading1{
+    font-weight:700;
+    font-size: 48px;
+}
+.heading2{
+    font-weight: 400;
+    font-size: 20px;
+}
+.whiteboxes {
+    font-family: 'Inter';
+}
+.partner{
+    font-weight: 400;
+    font-size: small;
+}
+.socialmedia{
+    font-weight: 600;
+}
+.caps{
+font-weight: 700;
+font-size: 12px;
+letter-spacing: 1px;
+}
+.heading3{
+    font-weight: 700;
+    font-size: 48px;
+}
+.content{
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+}
+.learnmore{
+    font-size:15px;
+    text-align: center;
+letter-spacing: -0.2px;
+}
+.heading4{
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+}
+.thirdcontent{
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+}
+.fourthcontent{
+    font-weight: 400;
+font-size:15px;
+line-height: 25px;
+}
+.fourthcontent2{
+    font-weight: 400;
+font-size: 10px;
+}
+.heading5{
+    font-size:40px;
+font-weight: 600;
+}
+.fifthcontent{
+    font-size:10px;
+    line-height: 10px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.whiteboxes p{
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+}
+.fifthcontent2{
+font-weight: 400;
+font-size: 10px;
+line-height: 30px;
+}
+.whiteboxes h6{
+    font-size: 17px;
+    font-weight: 600;
+}
+.heading6{
+font-weight: 600;
+font-size: 36px;
+line-height: 45px;
+}
+.seventhsection{
+font-weight: 600;
+font-size: 26px;
+}
+.seventhcontent{
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+}
+
+.category{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+}
+@media screen and (min-width: 320px) and (max-width:480px){
+    *{
+        font-family: 'Inter';
+    }
+         .heading1{
+            font-size:36px;
+         }
+         .content{
+            font-size: 20px;
+         }
+         .firstboxcontent{
+            font-size: 20px;
+            line-height: 30px;
+         }
+         .partner{
+            font-weight: 400;
+           font-size: 15px;
+           letter-spacing: 1px;
+         }
+         .caps{
+            font-size:13px;
+            line-height: 14px;
+            text-align: center;
+            letter-spacing: 1px;
+            color: #1C1C1C;
+         }
+         .learnmore{
+            font-size: 20px;
+            color:#24AFB5;
+        }
+        .thirdcontent{
+            font-size: 15px;  
+            letter-spacing: 2px;
+            line-height: 20px;   
+        }
+        .heading3{
+            font-size: 36px;
+            line-height: 46px;
+        }
+        .heading4{
+            font-size:24px;
+        }
+        .heading5{
+            font-size: 36px;
+        }
+        .heading6{
+            font-size: 36px;
+        }
+        .fourthcontent{
+            margin-top: 0;
+            font-size:20px ;
+        }
+        .email{
+            font-size: 20px;
+        }
+        .fourthcontent2{
+            font-size: 13px;
+            color: #969696;
+        }
+        .shortheading{
+        font-size: 36px; 
+         line-height: 46px;
+         text-align: center;
+         color: #1C1C1C;
+}
+.fifthcontent{
+    line-height: 30px;
+    text-align: center;
+    font-size:20px;
+    color:#969696;
+}
+.fifthcontent2{
+    font-size: 15px;
+    line-height: 30px;
+}
+.formobile{
+    font-size: 15px;
+    line-height: 22px;
+}
+.whitebox h6{
+    font-size: 20px;
+}
+.email2{
+    font-size: 15px;
+    color:#585857;
+}
+.seventhcontainer li{
+    font-size:15px ;
+    line-height:22px;
+}
+.spamcontent{
+    font-size: 13px;
+    line-height: 18px;
+}
+footer p{
+    font-size: 13px;
+    line-height: 18px;
+}
+}
