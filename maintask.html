@@ -8,23 +8,43 @@
         <title>Maintask</title>
     </head>
 <body>
+  
     <!-- header -->
         <header>
          <!-- logo -->
              <!-- header links -->
               <nav class="headerlinks">
-                <a href="" target="_blank">   <img src="Assets/Logo.svg" class="logo"  alt="logo" /> </a>
-                <a href="#" target="_blank" class="link1">FirstLink</a>
-                <a href="#" target="_blank" class="link1">SecondLink</a>
-                <a href="#" target="_blank"  class="link1">ThirdLink</a>
-                <a href="#" target="_blank" class="link1">FourthLink</a>
+                <a href="#" target="_blank">   <img src="Assets/Logo.svg" class="logo"  alt="logo" /> </a>
+                <ul class="nav-menu">
+                  <li class="nav-item">
+                    <a href="#" target="_blank" class="link1">FirstLink</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" target="_blank" class="link1">SecondLink</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" target="_blank" class="link1">ThirdLink</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" target="_blank" class="link1">FourthLink</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" target="_blank" class="link1" id="links">Fifth Link</a>
+                  </li>
+                  
+                </ul>
+            
              </nav>
              <!-- rightside header -->
              <div class="headerright">
-             <a href="#" target="_blank" class="link1">Fifth Link</a>
+            
             <button type="button" class="button">Button<img src="Assets/Icon.svg" alt="button"/></button>
             <!-- nav menu for mobile width -->
-              <a href="" target="_blank">  <img src="Assets/bar.svg" class="bar1" alt="bar" /></a>
+            </div>
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
             </div>
        </header>
        <main>
@@ -65,11 +85,16 @@
     <div class="thirdleftsection"><h2 class="heading4">Heading</h2>
     <p class="thirdcontent">In the history of modern astronomy,there is probably no one greater leap forward than the building and launch.</p>
     </div>
-
+    
     <div class="thirdrightsection">
-      <input type="email" placeholder="Email" class="email">
-    <button type="submit" class="subscribe">Subscribe</button></div>
+      <input type="email" placeholder="Email" class="email" id="email">
+    <button  class="subscribe" id="subscribe">Subscribe</button></div>
    </section><hr>
+   <div class=" swal-overlay--show-modal" id="over" ></div>
+   <div id="alertbox" >
+    <h6 class="h6"></h6>
+    <button class="ok" id="ok">OK</button> </div>
+
    
    <section class="fourthcontainer">
         <div class="fourthleftsection">
@@ -92,9 +117,7 @@
      <p class="fifthcontent">Each and every one of us has that moment when we are suddenly stunned when we come face to face with the enormity of the universe.</p>
     </div>
     <section class="whiteboxes">
-      <div class="whitebox" id="whitebox" ><img src="Assets/Userpic.svg" alt="logo" class="user"/><img src="Assets/Twitter.svg" alt="logo"/><p class="fifthcontent2">Moment in the life of any aspiring astronomer of that it is time to buy that first telescope.</p><h6>Katherine Bishop<div><img src="Assets/Twitter1.svg"  class="twitter" alt="logo" /><img src="Assets/Facebook.svg" class="facebook" alt="logo" /></h6></div></div>
-      <div class="whitebox" id="mediabox"><div class="profile-quote"><img src="Assets/Userpic.svg" alt="logo" class="user"/><img src="Assets/Twitter.svg" alt="logo"/></div><p class="fifthcontent2">Moment in the life of any aspiring astronomer of that it is time to buy that first telescope.</p><h6 class="berthablake-twi-fb">Bertha Blake<div><img src="Assets/Twitter1.svg" class="twitter" alt="logo" /><img src="Assets/Facebook.svg"  class="facebook" alt="logo" /></h6></div></div>
-      <div class="whitebox" id="whitebox"><img src="Assets/Userpic.svg" alt="logo" class="user" /><img src="Assets/Twitter.svg" alt="logo" /><p class="fifthcontent2">Moment in the life of any aspiring astronomer of that it is time to buy that first telescope.</p><h6>Sarah Bailey<div><img src="Assets/Twitter1.svg" class="twitter" alt="logo" /><img src="Assets/Facebook.svg"  class="facebook" alt="logo" /></h6></div></div>
+      
     </section>
     <section class="sliderdots">
     <div class="sliderdot"></div>
@@ -145,11 +168,19 @@
     <li>Fifth Link</li>
     </ul>
     <div class="formobile"><h2>Subscribe</h2>
-     <div class="emailsend"> <input type="email" placeholder="Email" class="email2"><img src="Assets/Text.svg" class="send" alt="send" /></div>
+     <div class="emailsend"> 
+      <input type="email" placeholder="Email" class="email2" id="email1" />
+      
+        <img src="Assets/Text.svg" class="send" type="button" id="subscribe1" alt="send" />
+      </div>
+      
       <p class="spamcontent">No spam, notifications only about new products, updates and freebies. You can always unsubscribe.</p>
     </div>
 </div>
    </section><hr>
+   <div id="alertbox1">
+    <h6 class="h6"></h6>
+    <button class="ok1" id="ok1">OK</button> </div>
    <footer class="footer">
     <div class="leftfooter">
       <div>
@@ -157,15 +188,17 @@
     <p>© Copyright 2020 Pixsellz - Premium UI Goods for Designers</p>
     </div>
     <div class="rightfooter">
-      <a href="#" target="_blank" class="link1">FirstLink</a>
-      <a href="#" target="_blank" class="link1">SecondLink</a>
-      <a href="#" target="_blank"  class="link1">ThirdLink</a>
-      <img src="Assets/Facebook.svg" alt="logo" />
+      <a href="#" target="_blank" class="link1" id="link1">FirstLink</a>
+      <a href="#" target="_blank" class="link1" id="link1">SecondLink</a>
+      <a href="#" target="_blank"  class="link1" id="link1">ThirdLink</a>
+     <div> <img src="Assets/Facebook.svg" alt="logo" />
       <img src="Assets/icon color.svg" alt="logo" />
       <img src="Assets/Twitter1.svg" alt="logo" />
-      <img src="Assets/utube.svg" alt="logo" />
+      <img src="Assets/utube.svg" alt="logo" /></div>
     </div>
-   </footer><hr>
+   </footer><hr>  
     </main>
+    
+    <script src="maintask.js"></script>
 </body>
 </html>
